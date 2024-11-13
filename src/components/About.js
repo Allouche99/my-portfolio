@@ -6,7 +6,7 @@ function About({ language }) {
       <h2>{language === 'en' ? 'About Me' : 'À propos de moi'}</h2>
       <div className="about-container">
         <div className="about-image">
-          <img src="/images/mypic.jpg" alt="Your Name" />
+          <img src="public/images/mypic.jpg" alt="Yassir ALLOUCHE" />
         </div>
         <p>
           {language === 'en'
