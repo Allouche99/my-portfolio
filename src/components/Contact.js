@@ -7,7 +7,9 @@ function Contact({ language }) {
 
       <div className="contact-info">
         <p>
-          {language === 'en' ? 'You can reach me directly at:' : 'Vous pouvez me contacter directement à:'}
+          {language === 'en'
+            ? 'You can reach me directly at:'
+            : 'Vous pouvez me contacter directement à:'}
         </p>
         <ul>
           <li>Email: YassirAllouche@gmail.com</li>
@@ -23,8 +25,13 @@ function Contact({ language }) {
             </a>
           </li>
         </ul>
-        <a href="/CV  alternance.pdf" target="_blank" rel="noopener noreferrer">
-          {language === 'en' ? 'Download My CV (PDF)' : 'Télécharger mon CV (PDF)'}
+        <a
+          href="https://allouche99.github.io/my-portfolio/public/cv-alternance.pdf"
+          target="_blank"
+        >
+          {language === 'en'
+            ? 'Download My CV (PDF)'
+            : 'Télécharger mon CV (PDF)'}
         </a>
       </div>
     </section>
