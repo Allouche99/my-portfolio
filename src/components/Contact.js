@@ -26,8 +26,9 @@ function Contact({ language }) {
           </li>
         </ul>
         <a
-          href="https://allouche99.github.io/my-portfolio/public/cv-alternance.pdf"
+          href={`${process.env.PUBLIC_URL}/CValternance.pdf`}
           target="_blank"
+          rel="noopener noreferrer"
         >
           {language === 'en'
             ? 'Download My CV (PDF)'
